@@ -12,10 +12,23 @@ const Footer = () => {
        viewport={{ once: false, amount: 0.5 }}
        transition={{ staggerChildren: 0.5 }}>
         <m.h3 variants={sectionAnimate}>Find us: </m.h3>
-        <m.div className="icons d-flex justify-content-center align-items-center gap-4 fs-1 mb-2" variants={sectionFade}>
-          <BsYoutube />
-          <BsFacebook />
-          <BsTwitter />
+        <m.div className="icons d-flex justify-content-center align-items-center gap-4 fs-1 mb-2 mt-4" variants={sectionFade}>
+          <button className='btn'>
+            <a href="#" className='fs-1 '>
+            <i><BsYoutube/></i>
+            </a>
+          </button>
+          <button className='btn'>
+            <a href="#" className='fs-1 '>
+             <i><BsFacebook/></i>
+            </a>
+          </button>
+          <button className='btn'>
+            <a href="#" className='fs-1 '>
+             <i><BsTwitter/></i>
+            </a>
+          </button>
+         
         </m.div>
       </m.div>
     </footer>

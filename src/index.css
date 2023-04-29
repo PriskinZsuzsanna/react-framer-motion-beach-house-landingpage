@@ -55,7 +55,7 @@ header.scroll {
   background: rgb(204, 210, 215);
 }
 
-section.home,
+section.hero,
 section.about,
 section.explore,
 section.contact {
@@ -67,4 +67,11 @@ section.contact {
 
 footer {
   background: rgb(204, 210, 215);
+}
+
+footer .btn a i{
+  color: #252525;
+}
+footer .btn a:hover i {
+  color: #605f5f;
 }
