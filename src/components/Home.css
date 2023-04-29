@@ -1,0 +1,53 @@
+.hero {
+    min-height: 100vh;
+    background: url('../assets/heroBg.jpg') no-repeat center/cover;
+    position: relative;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset:0;
+    background: linear-gradient(#d6dcf1e7, #f1e4d6ad)
+  }
+
+  .hero-container {
+    z-index: 2;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  .hero img {
+    max-width: 50%;
+    box-shadow: 1px 1px 5px #000;
+  }
+  
+  .img-2 {
+    position: absolute;
+    top: 35%;
+    right: -10%;
+  }
+  
+  @media screen and (max-width: 714px) {
+    .img-container {
+      position: relative;
+      padding-bottom: 2rem;
+    }
+
+    .hero img {
+      max-width: 35%;
+      box-shadow: 1px 1px 5px #000;
+    }
+
+    .img-1 {
+      position: relative;
+      left: -10%;
+    }
+    .img-2 {
+      position: absolute;
+      top: 25%;
+      right: 10%;
+    }
+  }

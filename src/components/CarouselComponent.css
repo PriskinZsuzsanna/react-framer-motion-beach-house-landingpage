@@ -1,0 +1,9 @@
+.carousel-item {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 714px) {
+    .carousel-item {
+        font-size: .8rem;
+    }
+}
