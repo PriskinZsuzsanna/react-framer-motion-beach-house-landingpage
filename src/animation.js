@@ -43,7 +43,7 @@ export const navAnimation = {
   export const typingText = {
     hidden: {
       opacity: 0,
-      y: '-20px'
+      y: '20px'
     },
     show: {
       opacity: 1,
