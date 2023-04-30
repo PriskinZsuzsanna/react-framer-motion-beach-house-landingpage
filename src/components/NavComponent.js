@@ -23,7 +23,7 @@ const NavComponent = () => {
 
             <Container>
                 <nav className='py-4'>
-                    <m.ul variants={navAnimation} initial="hidden" animate="show" className='w-100 d-flex justify-content-evenly fw-bold h5'>
+                    <m.ul variants={navAnimation} initial="hidden" animate="show" className='w-100 d-flex fw-bold h5'>
                         <m.li variants={navItem}><a className='homeKlik' ref={homeRef} href='#' >Home</a></m.li>
                         <m.li variants={navItem}><a className='aboutKlik' href='#about'>About</a></m.li>
                         <m.li variants={navItem}><a className='exploreKlik' href='#explore'>Explore</a></m.li>

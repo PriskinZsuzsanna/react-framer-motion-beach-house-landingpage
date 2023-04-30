@@ -16,11 +16,11 @@ const About = () => {
   return (
     <section className={"about d-flex align-items-center px-2 "} id='about'>
 
-      <Container className="about-container text-center">
+      <Container className="about-container">
         <m.div
           initial={"offscreen"}
           whileInView={"onscreen"}
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true, amount: 0 }}
           transition={{ staggerChildren: 0.5 }}>
           <m.h2 className='text-center pb-4' variants={sectionAnimate}>About our Inn</m.h2>
           <m.p variants={sectionAnimate}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis libero similique, inventore explicabo, officia
@@ -29,13 +29,7 @@ const About = () => {
             fuga maiores? Quibusdam labore reprehenderit consequuntur, maxime repudiandae possimus in necessitatibus quod, sint iure vel delectus, illo quae? Impedit mollitia eveniet vel, esse aperiam aliquid aliq
             uam accusantium distinctio blanditiis unde cum voluptatibus saepe velit earum ullam tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis libero similique, inventore explicabo, officia
             maiores cum voluptatum maxime nesciunt tempore, incidunt suscipit est dolor aut odit asperiores veritatis beatae in nam vitae dolore blanditiis perferendis dolores?
-            Non nobis temporibus reiciendis excepturi sed tenetur, unde quos suscipit. Quam, nam dicta! Odit iste neque aliquam iure, explicabo labore, expedita dolores repellendus pariatur quibusdam et eligendi
-            fuga maiores? Quibusdam labore reprehenderit consequuntur, maxime repudiandae possimus in necessitatibus quod, sint iure vel delectus, illo quae? Impedit mollitia eveniet vel, esse aperiam aliquid aliq
-            uam accusantium distinctio blanditiis unde cum voluptatibus saepe velit earum ullam tempora.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis libero similique, inventore explicabo, officia
-            maiores cum voluptatum maxime nesciunt tempore, incidunt suscipit est dolor aut odit asperiores veritatis beatae in nam vitae dolore blanditiis perferendis dolores?
-            Non nobis temporibus reiciendis excepturi sed tenetur, unde quos suscipit. Quam, nam dicta! Odit iste neque aliquam iure, explicabo labore, expedita dolores repellendus pariatur quibusdam et eligendi
-            fuga maiores? Quibusdam labore reprehenderit consequuntur, maxime repudiandae possimus in necessitatibus quod, sint iure vel delectus, illo quae? Impedit mollitia eveniet vel, esse aperiam aliquid aliq
-            uam accusantium distinctio blanditiis unde cum voluptatibus saepe velit earum ullam tempora.
+            Non nobis temporibus reiciendis excepturi sed tenetur, unde quos suscipit.
           </m.p>
 
 

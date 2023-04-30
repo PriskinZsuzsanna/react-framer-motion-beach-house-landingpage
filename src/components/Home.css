@@ -2,17 +2,15 @@
     min-height: 100vh;
     background: url('../assets/heroBg.jpg') no-repeat center/cover;
     position: relative;
+    z-index: 0;
   }
 
   .hero::after {
     content: '';
     position: absolute;
     inset:0;
-    background: linear-gradient(#d6dcf1e7, #f1e4d6ad)
-  }
-
-  .hero-container {
-    z-index: 2;
+    background: linear-gradient(#d6dcf1e7, #f1e4d6ad);
+    z-index: -1;
   }
   
   .img-container {
@@ -47,7 +45,7 @@
     }
     .img-2 {
       position: absolute;
-      top: 25%;
+      top: 20%;
       right: 10%;
     }
   }

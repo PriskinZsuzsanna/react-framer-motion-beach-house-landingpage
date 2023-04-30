@@ -1,18 +1,9 @@
+.about-container {
+    text-align: justify
+}
+
 .about img {
     max-width: 100%;
 }
 
-/*
-.card {
-    position: relative;
-    padding-bottom: 3rem;
-}
 
-.card button {
-    position: absolute;
-    bottom: 1rem;
-    left: 15%;
-    right: 15%;
-    margin-inline: auto;
-}
-*/
