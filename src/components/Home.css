@@ -12,40 +12,53 @@
     background: linear-gradient(#d6dcf1e7, #f1e4d6ad);
     z-index: -1;
   }
-  
+
   .img-container {
     position: relative;
+    padding-bottom: 2rem;
   }
-  
+
   .hero img {
-    max-width: 50%;
+    max-width: 35%;
     box-shadow: 1px 1px 5px #000;
   }
-  
+
+  .img-1 {
+    position: relative;
+    left: -10%;
+  }
   .img-2 {
     position: absolute;
-    top: 35%;
-    right: -10%;
+    top: 20%;
+    right: 20%;
   }
-  
-  @media screen and (max-width: 714px) {
-    .img-container {
-      position: relative;
-      padding-bottom: 2rem;
-    }
 
+  @media screen and (min-width: 771px) {
+    .img-container {
+      left: 10%;
+    }
+    
     .hero img {
-      max-width: 35%;
+      max-width: 80%;
+      height: 100%;
       box-shadow: 1px 1px 5px #000;
     }
-
-    .img-1 {
-      position: relative;
-      left: -10%;
-    }
+    
     .img-2 {
       position: absolute;
-      top: 20%;
-      right: 10%;
+      top: 35%;
+      right: -20%;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    .img-container {
+      left: 10%;
+    }
+    
+    .img-2 {
+      position: absolute;
+      right: 0;
+    }
+  }
+
