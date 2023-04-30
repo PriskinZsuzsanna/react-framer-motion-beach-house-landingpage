@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-framer-motion-beach-house-landingpage/static/css/main.0bb8f78c.css",
+    "main.js": "/react-framer-motion-beach-house-landingpage/static/js/main.5183069e.js",
+    "static/media/hero-2.jpg": "/react-framer-motion-beach-house-landingpage/static/media/hero-2.14c5a7395e32191e95b1.jpg",
+    "static/media/hero-1.jpg": "/react-framer-motion-beach-house-landingpage/static/media/hero-1.c0bcf2f7e7b679d1536f.jpg",
+    "static/media/heroBg.jpg": "/react-framer-motion-beach-house-landingpage/static/media/heroBg.19e534b860f2accc0266.jpg",
+    "static/media/explore1.jpg": "/react-framer-motion-beach-house-landingpage/static/media/explore1.41bc9b332bae1dabdc80.jpg",
+    "static/media/about3.jpg": "/react-framer-motion-beach-house-landingpage/static/media/about3.7040b63fbaa1224aba21.jpg",
+    "static/media/explore3.jpg": "/react-framer-motion-beach-house-landingpage/static/media/explore3.15c5428b14e926a12295.jpg",
+    "static/media/about1.jpg": "/react-framer-motion-beach-house-landingpage/static/media/about1.2c69656603aae4e543c0.jpg",
+    "static/media/about2.jpg": "/react-framer-motion-beach-house-landingpage/static/media/about2.7566ce6a156834dc56d2.jpg",
+    "static/media/explore2.jpg": "/react-framer-motion-beach-house-landingpage/static/media/explore2.c880c3520c06b598cae4.jpg",
+    "index.html": "/react-framer-motion-beach-house-landingpage/index.html",
+    "main.0bb8f78c.css.map": "/react-framer-motion-beach-house-landingpage/static/css/main.0bb8f78c.css.map",
+    "main.5183069e.js.map": "/react-framer-motion-beach-house-landingpage/static/js/main.5183069e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bb8f78c.css",
+    "static/js/main.5183069e.js"
+  ]
+}
